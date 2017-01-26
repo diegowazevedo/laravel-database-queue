@@ -1,11 +1,11 @@
 {
-    "name": "davelip/laravel-database-queue",
+    "name": "diegowazevedo/laravel-database-queue",
     "description": "",
     "license": "MIT",
     "authors": [
         {
-            "name": "David Lippi",
-            "email": "lippi.david@gmail.com"
+            "name": "Diego Azevedo",
+            "email": "diego.willian@hotmail.com"
         }
     ],
     "require": {
@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Davelip\\Queue\\": "src/"
+            "DWA\\Queue\\": "src/"
         }
     },
     "minimum-stability": "dev"

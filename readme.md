@@ -7,11 +7,11 @@ You need a daemon like supervisor or similar to listen to your queue.
 ### Install
 Add the package to the require section of your composer.json and run `composer update`
 
-    "davelip/laravel-database-queue": ">0.5"
+    "diegowazevedo/laravel-database-queue": ">0.5"
 
 Add the Service Provider to the providers array in config/app.php
 
-    'Davelip\Queue\DatabaseServiceProvider'
+    'DWA\Queue\DatabaseServiceProvider'
 
 I suggest to publish migrations, so they are copied to your regular migrations
 
