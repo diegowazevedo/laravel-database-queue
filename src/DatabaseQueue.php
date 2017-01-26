@@ -93,9 +93,9 @@ class DatabaseQueue extends Queue implements QueueInterface
      */
     public function push($job, $data = '', $queue = null)
     {
-        $id = $this->storeJob($job, $data, $queue);
+        $job = $this->storeJob($job, $data, $queue);
 
-        return 0;
+        return $job;
     }
 
     /**
@@ -118,7 +118,7 @@ class DatabaseQueue extends Queue implements QueueInterface
         $job->payload = $payload;
         $job->save();
 
-        return $job->id;
+        return $job;
     }
 
     /**
@@ -133,9 +133,9 @@ class DatabaseQueue extends Queue implements QueueInterface
     public function later($delay, $job, $data = '', $queue = null)
     {
         $timestamp = time() + $this->getSeconds($delay);
-        $id = $this->storeJob($job, $data, $queue, $timestamp);
+        $job = $this->storeJob($job, $data, $queue, $timestamp);
 
-        return 0;
+        return $job;
     }
 
     /**
