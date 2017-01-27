@@ -1,4 +1,4 @@
-<?php namespace Davelip\Queue\Models;
+<?php namespace DWA\Queue\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

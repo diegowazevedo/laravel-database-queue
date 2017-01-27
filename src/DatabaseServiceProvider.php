@@ -1,4 +1,4 @@
-<?php namespace Davelip\Queue;
+<?php namespace DWA\Queue;
 
 use Illuminate\Support\ServiceProvider;
 use DWA\Queue\Connectors\DatabaseConnector;

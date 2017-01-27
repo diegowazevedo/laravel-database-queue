@@ -1,4 +1,4 @@
-<?php namespace Davelip\Queue\Jobs;
+<?php namespace DWA\Queue\Jobs;
 
 use Carbon\Carbon;
 use DWA\Queue\Models\Job;
@@ -31,7 +31,7 @@ class DatabaseJob extends \Illuminate\Queue\Jobs\Job
      * Create a new job instance.
      *
      * @param \Illuminate\Container\Container $container
-     * @param \Davelip\Queue\Models\Job       $job
+     * @param \DWA\Queue\Models\Job       $job
      * @param string                          $queue
      */
     public function __construct(Container $container, Job $job, $queue)

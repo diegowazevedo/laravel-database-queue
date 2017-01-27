@@ -1,4 +1,4 @@
-<?php namespace Davelip\Queue;
+<?php namespace DWA\Queue;
 
 use DateTime;
 use Carbon\Carbon;
@@ -118,7 +118,7 @@ class DatabaseQueue extends Queue implements QueueInterface
         $job->payload = $payload;
         $job->save();
 
-        return $job;
+        return $job->id;
     }
 
     /**

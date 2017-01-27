@@ -1,6 +1,6 @@
-<?php namespace Davelip\Queue\Console;
+<?php namespace DWA\Queue\Console;
 
-use Davelip\Queue\Models\Job;
+use DWA\Queue\Models\Job;
 use Illuminate\Console\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use DWA\Queue\Jobs\DatabaseJob;
