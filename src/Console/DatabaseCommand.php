@@ -3,8 +3,8 @@
 use Davelip\Queue\Models\Job;
 use Illuminate\Console\Command;
 use Symfony\Component\Console\Input\InputArgument;
-use Davelip\Queue\Jobs\DatabaseJob;
-use Davelip\Queue\DatabaseQueue;
+use DWA\Queue\Jobs\DatabaseJob;
+use DWA\Queue\DatabaseQueue;
 
 class DatabaseCommand extends Command
 {

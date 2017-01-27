@@ -1,7 +1,7 @@
 <?php namespace Davelip\Queue\Connectors;
 
 use Illuminate\Queue\Connectors\ConnectorInterface;
-use Davelip\Queue\DatabaseQueue;
+use DWA\Queue\DatabaseQueue;
 use Illuminate\Database\ConnectionResolverInterface;
 
 class DatabaseConnector implements ConnectorInterface

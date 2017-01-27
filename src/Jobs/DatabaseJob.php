@@ -1,7 +1,7 @@
 <?php namespace Davelip\Queue\Jobs;
 
 use Carbon\Carbon;
-use Davelip\Queue\Models\Job;
+use DWA\Queue\Models\Job;
 use Illuminate\Container\Container;
 
 class DatabaseJob extends \Illuminate\Queue\Jobs\Job

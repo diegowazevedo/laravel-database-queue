@@ -15,7 +15,7 @@ Add the Service Provider to the providers array in config/app.php
 
 I suggest to publish migrations, so they are copied to your regular migrations
 
-    $ php artisan migrate:publish davelip/laravel-database-queue
+    $ php artisan migrate:publish diegowazevedo/laravel-database-queue
 
 And then run migrate 
 

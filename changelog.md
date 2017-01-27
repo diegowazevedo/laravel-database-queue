@@ -1,6 +1,6 @@
 # Changelog for Laravel Database Queue
 
-## 0.2.2 (2017-01-26)
+## 0.2.3 (2017-01-26)
 
 - Jobs now returns job data
 

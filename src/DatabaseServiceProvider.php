@@ -1,8 +1,8 @@
 <?php namespace Davelip\Queue;
 
 use Illuminate\Support\ServiceProvider;
-use Davelip\Queue\Connectors\DatabaseConnector;
-use Davelip\Queue\Console\DatabaseCommand;
+use DWA\Queue\Connectors\DatabaseConnector;
+use DWA\Queue\Console\DatabaseCommand;
 
 class DatabaseServiceProvider extends ServiceProvider
 {

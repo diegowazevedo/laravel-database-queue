@@ -7,8 +7,8 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Queue\Queue;
 use Illuminate\Queue\QueueInterface;
 use Illuminate\Support\Facades\DB;
-use Davelip\Queue\Jobs\DatabaseJob;
-use Davelip\Queue\Models\Job;
+use DWA\Queue\Jobs\DatabaseJob;
+use DWA\Queue\Models\Job;
 
 class DatabaseQueue extends Queue implements QueueInterface
 {
